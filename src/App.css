@@ -1,38 +1,312 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cmn {
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.head1 {
+  font-size: 28px;
+}
+
+.head2 {
+  font-size: 26px;
+}
+
+.active-menu {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.heads {
+  margin-top: 120px;
+  padding-top: 50px;
+}
+
+.os {
+  color: #008fb3;
+  font-size: 48px;
+}
+
+.unix {
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.btn-link {
+  margin-top: 30px;
+  font-size: 24px;
+  border-radius: 16px;
+  width: 150px;
+  text-align: center;
+  border: 1px solid #008fb3;
+}
+
+.btn-link:hover {
+  background-color: #809fff;
+}
+
+.head-img {
+  background-image: url("./images/os1.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  border-radius: 16px;
+}
+
+.O {
+  font-size: 32px;
+}
+
+.E {
+  font-size: 34px;
+}
+
+.about-header {
+  margin: 20px;
+  margin-top: 40px;
+}
+
+.about-head {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.head2 {
+  margin-top: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.txt {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.about-img {
+  background-image: url("./images/os2.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  border-radius: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.about-imgwin {
+  background-image: url("./images/win.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  border-radius: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-imglin {
+  background-image: url("./images/lin2.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  border-radius: 16px;
+}
+
+.about-imgapl {
+  background-image: url("./images/apl.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  border-radius: 16px;
+}
+
+.cmn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cmn1 {
+  margin-top: 25px;
+}
+
+.list-item {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.os1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.diff-head {
+  color: #008fb3;
+}
+
+.size {
+  font-size: 24px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+  color: #008fb3;
+}
+
+.box {
+  margin-top: 25px;
+  height: 360px;
+  border-radius: 18px;
+  border-top: 1px solid #ccccb3;
+  border-left: 1px solid #ccccb3;
+  border-bottom: 1px solid #b8b894;
+  border-right: 1px solid #b8b894;
+}
+
+.label {
+  margin-top: 10px;
+  font-size: 24px;
+  text-align: left;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textbx {
+  width: 460px;
+  border-radius: 16px;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #e0e0d1;
+}
+
+.btns {
+  margin-top: 30px;
+}
+
+.btns:hover {
+  background-color: #66b3ff;
+}
+
+.ntfy {
+  width: 450px;
+  padding: 2px;
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.logged {
+  margin-top: 10px;
+  width: 350px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  color: #00ff00;
+}
+
+.cont {
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.newUserHead {
+  margin-top: 10px;
+}
+
+.box2 {
+  margin-top: 10px;
+  border-radius: 16px;
+  border-top: 1px solid #ccccb3;
+  border-left: 1px solid #ccccb3;
+  border-bottom: 1px solid #b8b894;
+  border-right: 1px solid #b8b894;
+}
+
+.mobno {
+  width: 300px;
+}
+
+.label {
+  margin-top: 10px;
+}
+
+.addusr {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.bxs {
+  margin-left: 28px;
+}
+
+.lbls {
+  margin-left: 100px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+.flud {
+  margin-bottom: 20px;
+}
+
+.btns2 {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.adds {
+  width: 284px;
+  border-radius: 16px;
+  padding: 5px;
+  outline: none;
+}
+
+.bxs {
+  font-size: 18px;
+}
+
+.noteme {
+  font-size: 16px;
+  color: red;
+  width: 350px;
+  text-align: center;
+}
+
+.notemi {
+  font-size: 16px;
+  color: #00ff00;
+  width: 350px;
+  text-align: center;
+}
+
+.lou {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #008fb3;
+}
+
+.lol {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.tbody {
+  font-size: 20px;
+}
+
+.thead {
+  font-size: 22px;
 }
