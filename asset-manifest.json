@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/operating-system-app/static/css/main.5f740e03.chunk.css",
+    "main.js": "/operating-system-app/static/js/main.62ba17a8.chunk.js",
+    "main.js.map": "/operating-system-app/static/js/main.62ba17a8.chunk.js.map",
+    "runtime-main.js": "/operating-system-app/static/js/runtime-main.b00252fc.js",
+    "runtime-main.js.map": "/operating-system-app/static/js/runtime-main.b00252fc.js.map",
+    "static/css/2.c75115fa.chunk.css": "/operating-system-app/static/css/2.c75115fa.chunk.css",
+    "static/js/2.6d5d18f3.chunk.js": "/operating-system-app/static/js/2.6d5d18f3.chunk.js",
+    "static/js/2.6d5d18f3.chunk.js.map": "/operating-system-app/static/js/2.6d5d18f3.chunk.js.map",
+    "static/js/3.f682dc69.chunk.js": "/operating-system-app/static/js/3.f682dc69.chunk.js",
+    "static/js/3.f682dc69.chunk.js.map": "/operating-system-app/static/js/3.f682dc69.chunk.js.map",
+    "index.html": "/operating-system-app/index.html",
+    "static/css/2.c75115fa.chunk.css.map": "/operating-system-app/static/css/2.c75115fa.chunk.css.map",
+    "static/css/main.5f740e03.chunk.css.map": "/operating-system-app/static/css/main.5f740e03.chunk.css.map",
+    "static/js/2.6d5d18f3.chunk.js.LICENSE.txt": "/operating-system-app/static/js/2.6d5d18f3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/operating-system-app/static/media/win.2d2f379f.gif",
+    "static/media/font-awesome.css": "/operating-system-app/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b00252fc.js",
+    "static/css/2.c75115fa.chunk.css",
+    "static/js/2.6d5d18f3.chunk.js",
+    "static/css/main.5f740e03.chunk.css",
+    "static/js/main.62ba17a8.chunk.js"
+  ]
+}
